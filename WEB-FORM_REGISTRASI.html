@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style-form - Copyes.css">
+		<title>MEMBUAT DESAIN FORM RESPONSIVE BARU</title>
+	</head>
+	<body>
+		<header>
+			<ul id="left-nav">
+				<li><a href=""><img src="GAMBAR-Logo.png" style="margin-top:10%;"></a></li>
+			</ul>
+			
+			<ul id="right-nav">
+				<li>
+					
+				</li>
+				<li><a href="">Masuk</a></li>
+				<li><a href="">Daftar</a></li>
+			</ul>
+		</header>
+		
+		<menu>
+			<ul id="navbar" style="margin-left:9.5%;">
+				<li><a href="index.html">BERANDA</a></li>
+				<li><a href="">PROFIL <span class="arrow"></span></a>
+					<ul>
+						<li><a href="WEB-PROFIL-berita.html">Berita</a></li>
+						<li><a href="WEB-PROFIL-pengajar.html">Pengajar</a></li>
+						<li><a href="WEB-PROFIL-lembaga.html">Lembaga</a></li>
+					</ul>
+				</li>
+				<li><a href="">PROGRAM <span class="arrow"></span></a>
+					<ul>
+						<li><a href="WEB-PROGRAM_SD.html">SD/MI</a></li>
+						<li><a href="WEB-PROGRAM_SMP.html">SMP/MTs</a></li>
+						<li><a href="WEB-PROGRAM_SMA.html">SMA/MA</a></li>
+						<li><a href="WEB-PROGRAM_SBMPTN.html">SBMPTN</a></li>
+						<li><a href="WEB-PROGRAM_UMUM.html">Umum</a></li>
+					</ul>
+				</li>
+				<li><a href="WEB-TESTIMONIAL.html">TESTIMONIAL</a></li>
+				<li><a href="">TENTANG</a>
+					<ul>
+						
+						<li><a href="WEB-PROFIL-FAQ.html">FAQ</a></li>
+					</ul>
+				</li>
+				<li><a href="WEB-HUBUNGI KAMI.html">HUBUNGI KAMI</a></li>
+			</ul>
+		</menu>
+		
+		<div class="container">
+		
+		<div id="header">
+			
+			<h1>form pendaftaran</h1>
+			<p>Silahkan isi secara lengkap</p>
+		</div>
+		
+		<div class="form-container">
+		<form action="action.php" method="post" autocomplete="on" id="form1">
+			<fieldset>
+				<legend>Informasi Primer</legend>
+				<div class="form-grup">
+				<div class="label">
+					<label>Nama Lengkap</label>
+				</div>
+				<div class="input">
+					<input type="text" name="nama" placeholder="Isikan Nama Lengkap Anda" maxlength="30"
+					autofocus>
+				</div>
+			</div>
+			<div class="form-grup">
+				<div class="label">
+					<label>Tempat Lahir</label>
+				</div>
+				<div class="input">
+					<input type="text" name="tempat_lahir" placeholder="Isikan tempat lahir anda" maxlength="30"
+					autofocus style>
+				</div>
+			</div>
+			<div class="form-grup">
+				<div class="label">
+					<label>Tanggal Lahir</label>
+				</div>
+				<div class="input">
+					<input type="date" name="tgl_lahir">
+				</div>
+			</div>
+			<div class="form-grup">
+				<div class="label">
+					<label>Alamat</label>
+				</div>
+				<div class="input">
+					<textarea name="alamat" placeholder="Isi alamat lengkap Anda"></textarea>
+				</div>
+			</div>
+			<div class="form-grup">
+				<div class="label">
+					<label>kota</label>
+				</div>
+				<div class="input">
+					<select name="kota" style="width:104.45%;">
+						<option value="makassar">Makassar</option>
+						<option value="gowa">Gowa</option>
+						<option value="maros">Maros</option>
+					</select>
+				</div>
+			</div>
+			<div class="form-grup">
+				<div class="label">
+					<label>Gender</label>
+				</div>
+				<div class="input">
+					<input type="radio" name="gender" value="1"> Laki-laki <br>
+					<input type="radio" name="gender" value="2"> Perempuan
+				</div>
+			</div>
+			<div class="form-grup">
+				<div class="label">
+					<label>No. Hp Aktif</label>
+				</div>
+				<div class="input">
+					<input type="number" name="no_hp_aktif" value="0" placeholder="Isikan No.Hp Anda" maxlength="30"
+					autofocus style>
+				</div>
+			</div>
+			<div class="form-grup">
+				<div class="label">
+					<label>No. Hp Alternatif (Orang Tua atau Wali)</label>
+				</div>
+				<div class="input">
+					<input type="text" name="no_hp_orang_tua_wali" placeholder="Isikan no.hp" maxlength="30"
+					autofocus style>
+				</div>
+			</div>
+			<div class="form-grup">
+				<div class="label">
+					<label>Email</label>
+				</div>
+				<div class="input">
+					<input type="email" name="email" placeholder="mis. email@domain.com" autocomplete="off">
+				</div>
+			</div>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Informasi Les Privat</legend>
+			<div class="form-grup">
+				<div class="label">
+					<label>Pilhan Kategori Program</label>
+				</div>
+				<div class="input">
+					<select name="ketegori_program" style="width:104.45%;">
+						<option value="sd">SD</option>
+						<option value="smp">SMP</option>
+						<option value="sma">SMA</option>
+						<option value="sma">SBMPTN</option>
+						<option value="umum">Umum</option>
+					</select>
+				</div>
+			</div>
+			<div class="form-grup">
+				<div class="label">
+					<label>Pilhan Kategori Pelajaran 1</label>
+				</div>
+				<div class="input">
+					<select name="kategori_pelajaran" style="width:104.45%;">
+						<option value="sd">Semua Pelajaran SD</option>
+						<option value="smp">Semua Pelajaran SMP</option>
+						<option value="sma">Semua Pelajaran SMA</option>
+						<option value="umum">Matematika</option>
+						<option value="sd">Bahasa Indonesia</option>
+						<option value="smp">Bahasa Inggris</option>
+						<option value="sma">Fisika</option>
+						<option value="sd">Kimia</option>
+						<option value="smp">Biologi</option>
+						<option value="sma">Ekonomi</option>
+						<option value="sd">Geografi</option>
+						<option value="smp">Sosiologi</option>
+						<option value="smp">Sejarah</option>
+						<option value="umum">Umum (Tahsinul Qur'an)</option>
+						<option value="umum">Umum (Baca Tulis Hitung)</option>
+						<option value="umum">Umum (Bahasa Inggris)</option>
+						<option value="umum">Umum (Bahasa Indonesia)</option>
+						<option value="umum">Umum (Program Web)</option>
+					</select>
+				</div>
+			</div>
+			<div class="form-grup">
+				<div class="label">
+					<label>Pilhan Kategori Pelajaran 2</label>
+				</div>
+				<div class="input">
+					<select name="kategori_pelajaran" style="width:104.45%;">
+						<option value="sd">-</option>
+						<option value="sd">Semua Pelajaran SD</option>
+						<option value="smp">Semua Pelajaran SMP</option>
+						<option value="sma">Semua Pelajaran SMA</option>
+						<option value="umum">Matematika</option>
+						<option value="sd">Bahasa Indonesia</option>
+						<option value="smp">Bahasa Inggris</option>
+						<option value="sma">Fisika</option>
+						<option value="sd">Kimia</option>
+						<option value="smp">Biologi</option>
+						<option value="sma">Ekonomi</option>
+						<option value="sd">Geografi</option>
+						<option value="smp">Sosiologi</option>
+						<option value="smp">Sejarah</option>
+						<option value="umum">Umum (Tahsinul Qur'an)</option>
+						<option value="umum">Umum (Baca Tulis Hitung)</option>
+						<option value="umum">Umum (Bahasa Inggris)</option>
+						<option value="umum">Umum (Bahasa Indonesia)</option>
+						<option value="umum">Umum (Program Web)</option>
+					</select>
+				</div>
+			</div>
+			<div class="form-grup">
+				<div class="label">
+					<label>Pilhan Kategori Pelajaran 3</label>
+				</div>
+				<div class="input">
+					<select name="kategori_pelajaran" style="width:104.45%;">
+						<option value="sd">-</option>
+						<option value="sd">Semua Pelajaran SD</option>
+						<option value="smp">Semua Pelajaran SMP</option>
+						<option value="sma">Semua Pelajaran SMA</option>
+						<option value="umum">Matematika</option>
+						<option value="sd">Bahasa Indonesia</option>
+						<option value="smp">Bahasa Inggris</option>
+						<option value="sma">Fisika</option>
+						<option value="sd">Kimia</option>
+						<option value="smp">Biologi</option>
+						<option value="sma">Ekonomi</option>
+						<option value="sd">Geografi</option>
+						<option value="smp">Sosiologi</option>
+						<option value="smp">Sejarah</option>
+						<option value="umum">Umum (Tahsinul Qur'an)</option>
+						<option value="umum">Umum (Baca Tulis Hitung)</option>
+						<option value="umum">Umum (Bahasa Inggris)</option>
+						<option value="umum">Umum (Bahasa Indonesia)</option>
+						<option value="umum">Umum (Program Web)</option>
+					</select>
+				</div>
+			</div>
+			<div class="form-grup">
+				<div class="label">
+					<label>Pilhan Kategori Lainnya</label>
+				</div>
+				<div class="input">
+					<select name="kategori_pelajaran" style="width:104.45%;">
+						<option value="sd">-</option>
+						<option value="sd">Semua Pelajaran SD</option>
+						<option value="smp">Semua Pelajaran SMP</option>
+						<option value="sma">Semua Pelajaran SMA</option>
+						<option value="umum">Matematika</option>
+						<option value="sd">Bahasa Indonesia</option>
+						<option value="smp">Bahasa Inggris</option>
+						<option value="sma">Fisika</option>
+						<option value="sd">Kimia</option>
+						<option value="smp">Biologi</option>
+						<option value="sma">Ekonomi</option>
+						<option value="sd">Geografi</option>
+						<option value="smp">Sosiologi</option>
+						<option value="smp">Sejarah</option>
+						<option value="umum">Umum (Tahsinul Qur'an)</option>
+						<option value="umum">Umum (Baca Tulis Hitung)</option>
+						<option value="umum">Umum (Bahasa Inggris)</option>
+						<option value="umum">Umum (Bahasa Indonesia)</option>
+						<option value="umum">Umum (Program Web)</option>
+					</select>
+				</div>
+			</div>
+			<div class="form-grup">
+				<div class="label">
+					<label>Hari Les Privat</label>
+				</div>
+				<div class="input" style="width:30%;">
+					<input type="checkbox" name="Hari" value="senin"> Senin <br>
+					<input type="checkbox" name="Hari" value="selasa"> Selasa <br>
+					<input type="checkbox" name="Hari" value="rabu"> Rabu <br>
+					<input type="checkbox" name="Hari" value="kamis"> Kamis <br>
+				</div>
+				<div class="input" style="width:30%;">
+					<input type="checkbox" name="Hari" value="jumat"> Jumat <br>
+					<input type="checkbox" name="Hari" value="sabtu"> Sabtu <br>
+					<input type="checkbox" name="Hari" value="minggu"> Minggu <br>
+				</div>
+			</div>
+			<div class="form-grup">
+				<div class="label">
+					<label>Jam Les Privat</label>
+				</div>
+				<div class="input" style="width:30%;">
+					<input type="checkbox" name="Jam" value="pagi"> Pagi <br>
+					<input type="checkbox" name="Jam" value="siang"> Siang <br>
+				</div>
+				<div class="input" style="width:30%;">
+					<input type="checkbox" name="Jam" value="sore"> Sore <br>
+					<input type="checkbox" name="Jam" value="malam"> Malam <br>
+				</div>
+			</div>
+			<div class="form-grup">
+				<div class="label">
+					<label>Metode Pembayaran</label>
+				</div>
+				<div class="input">
+					<select name="kategori_pelajaran" style="width:104.45%;">
+						<option value="sd">Bank BCE</option>
+						<option value="smp">Bank Mandi</option>
+					</select>
+				</div>
+			</div>
+			
+				
+			</fieldset>
+			
+			<div class="form-grup">
+				<button type="submit"> KIRIM</button>
+			</div>
+			
+			<div class="form-grup">
+				<hr>
+				<input type="checkbox" name="subcribe" value="1" form="form1"> Subscribe Notifikasi ke email 
+				Anda (jika tidak, silakan kosongi) <br>
+				<input type="checkbox" name="subcribe" value="2" form="form1"> Subscribe Postingan dari website
+			</div>
+			
+		</form>
+		</div>
+		
+		</div>
+		
+		<footer style="clear: both;">
+		<nav>
+			<ul id="footer_Profil">
+				<li><a>&nbsp&nbsp Menu<a><br><br>
+				<ul>
+					<a href="WEB-BERANDA.html">&nbsp&nbsp&nbsp&nbsp BERANDA<a><br>
+					<a>&nbsp&nbsp&nbsp&nbsp PROFIL<a><br>
+					<ul>
+						<a href="WEB-PROFIL-pengajar.html">&nbsp&nbsp Pengajar<a><br>
+						<a href="WEB-PROFIL-lembaga.html">&nbsp&nbsp Lembaga<a><br>
+						<a href="WEB-PROFIL-berita.html">&nbsp&nbsp Berita<a><br>
+					</ul>
+					<a>&nbsp&nbsp&nbsp&nbsp PROGRAM<a><br>
+					<ul>
+						<a href="WEB-PROGRAM_SD.html">&nbsp&nbsp SD/MI<a><br>
+						<a href="WEB-PROGRAM_SMP.html">&nbsp&nbsp SMP/MTs<a><br>
+						<a href="WEB-PROGRAM_SMA.html">&nbsp&nbsp SMA/MA<a><br>
+						<a href="WEB-PROGRAM_SBMPTN.html">&nbsp&nbsp SBMPTN<a><br>
+						<a href="WEB-PROGRAM_UMUM.html">&nbsp&nbsp Umum<a><br>
+					</ul>
+					<a href="">&nbsp&nbsp&nbsp&nbsp TENTANG<a><br>
+					<ul>
+						<a href="">&nbsp&nbsp Cara Mendaftar<a><br>
+					</ul>
+					<a href="WEB-TESTIMONIAL.html">&nbsp&nbsp&nbsp&nbsp TESTIMONIAL<a><br>
+				</ul>
+				</li>	
+				<li><a>Les Privat MYPRIVAT<a>
+				<br>
+					<p>OFFICE:<br>Jl. Kejayaan Utara IV No 1 <br>Bumi Tamalanrea Permai Blok L Kel.Tamalanrea Raya Kec.Tamalanrea, Makassar</p>
+					<p>TELEPON:<br>(0411) 426 16019 (call only)<br>08142616019 (call/sms/wa)</p>
+					<p>E-mail:<br><a href="misbahulanam19@000webhostapp.com">misbahulanam19@000webhostapp.com</a><br>
+								  <a href="Office_Center@MyPrivat.co.id">Office_Center@MyPrivat.co.id</a>
+				</li>
+				<li><a>Pembayaran<a><br><br>
+					<img src="GAMBAR_BANK1.png" style="width:158px;">
+				</li>
+				<li><a>Like & Follow Us<a><br><br>
+				<a href=""><img src="GAMBAR_logofacebook.png" style="width:70px;">&nbsp <a href=""><img src="GAMBAR_logotwitter.png" style="width:70px;"></a><br>
+				<a href=""><img src="GAMBAR_logoinstagram.png" style="width:70px;">&nbsp <a href=""><img src="GAMBAR_logoyoutube.png" style="width:70px;"></a>
+				<br>
+				<p>PENCARIAN</p>
+				<form id="search">
+						<input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}"><input type="submit" value="">
+					</form>
+				</li>
+				</ul>
+		</nav>
+			<a>2A D4 Teknik Multimedia dan Jaringan-Politeknik Negeri Ujung Pandang &COPY:2017 by Misbahul Anam - Ainun Ramadhana Yusran Developers</a><div>
+		</footer>
+	</body>
+</html>

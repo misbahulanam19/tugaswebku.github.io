@@ -1,0 +1,1805 @@
+body{
+	background: silver;
+	margin: 0px;
+	padding: 0px;
+	font-family: maiandra gd;
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+header{
+	background: silver;
+	height: 100px;
+}
+
+#left-nav{
+	float: left;
+}
+
+ul li{
+	
+	list-style-type: none;
+}
+
+#search{
+	float: right;
+	text-align: center;
+	border: 10px;
+}
+
+#right-nav{
+	float: right;
+	margin-right: 10px;
+}
+
+#right-nav li{
+	display: inline-block;
+	margin: 10px;
+}
+
+/*------------------------------bagian menu bar------------------------------*/
+menu{
+	background: black;
+	height: 35px;
+	margin: 0px;
+}
+
+#navbarBERANDA{
+	margin-left: 9.5%;
+	margin-top: -535.5px;
+}
+menu a{
+	color: silver;
+}
+
+menu li{
+	float: left;
+	margin-left: 10px;
+	width: 135px;
+	height: 30px;
+	padding: 2.5px;
+	background: #000;
+	text-align: center;
+	cursor: pointer;
+	line-height: 30px;
+	transition-duration: 0.6s;
+}
+
+menu li:hover {
+	background: #336699;
+}
+
+menu li ul{
+	position: relative;
+	right: 52.5px;
+	top: 2.5px;
+}
+
+menu li ul{
+	display: none;
+}
+
+menu li:hover ul{
+	display: block;
+}
+
+/*-----------------------------bagian SECTION---------------------------------*/
+section{
+	text-align: center;
+}
+
+/*--------S E C T I O N  P R O F I L------------------*/
+
+#bagian_10{
+	background-color: none;
+	height: 900px;
+}
+
+#coba2{
+	color: #fff;
+	font-size: 30px;
+	border-color: #fff;
+	padding: 0px;
+	margin: 10%;
+	margin-top: 10%;
+	text-align: center;
+	float:center;
+	border-radius: 20px 20px 20px 20px;
+}
+
+#coba2 a, h1{
+	color: #000;
+}
+
+#bagian_11MyPrivat{
+	font-size: 20px;
+	color: #000000;
+	background:url('GAMBAR_backgrounde1.png');
+	height: 899px;
+	text-align: justify;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: -300px;
+}
+	#bagian_11MyPrivat h2{
+		font-size: 25px;
+		text-align: center;
+		color: #000000;
+}
+
+#bagian_11aPrivat{
+	background-color: none;
+	margin-top: -400px;
+	margin-right: 80px;
+	text-align: right;
+}
+
+#bagian_11bPrivat{
+	background-color: none;
+	height: 200px;
+	margin-top: 100px;
+}
+
+#bagian_12{
+	background-color: none;
+	background:url('GAMBAR_backgrounde2.png');
+	font-size: 20px;
+	color: #000;
+	height: 650px;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: -190px;
+}
+
+	#coba3 h2{
+		font-size: 25px;
+		text-align: center;
+		color: #000000;
+	}
+	
+	
+	#coba3 ul li{
+	float: left;
+	text-align: center;
+	padding-left: 5%;
+	padding-right: 6%;
+	}
+	
+	#coba4{
+		position: left;
+	}
+	
+	#coba4 li{
+		float: left;
+		width: 500px;
+		font-size: 25px;
+		text-align: center;
+		color: #000000;
+		border:5px solid;
+		border-color: black;
+		border-radius: 10px 10px 10px 10px;
+	}
+	
+		#coba4 h2{
+			font-size: 25px;
+			text-align: center;
+			color: #000000;
+		}
+	
+	#coba5 li{
+		font-size: 25px;
+		text-align: center;
+		color: #000000;
+		border:5px solid;
+		border-color: black;
+		border-radius: 10px 10px 10px 10px;
+		margin-left: 50%;
+		margin-right: 10%;
+	}
+	
+/*--------S E C T I O N  P R O G R A M------------------*/
+
+/*----------------BERANDA------------------*/
+
+#bagian_10_BERANDA{
+	background-color: none;
+	height: 10px;
+	color: #fff;
+	text-align: right;
+}
+
+@keyframes slider {
+	0%{
+		left: 0%;
+	}
+	15%{
+		left: 0%;
+	}
+	31%{
+		left: -100%;
+	}
+	51%{
+		left: -100%;
+	}
+	67%{
+		left: -200%;
+	}
+	85%{
+		left: -200%;
+	}
+	100%{
+		left: -300%;
+	}
+
+}
+
+#slider{
+	overflow: hidden;
+	padding-top: 2.7%;
+}
+
+#slider figure img{
+	width: 12%;
+	float: left;
+}
+
+#slider figure{
+	position: relative;
+	width: 833.5%;
+	margin: 0;
+	left: 0;
+	animation: 10s slider infinite;
+}
+
+#bagian_11BERANDA{
+	font-size: 20px;
+	color: #000000;
+	height: 400px;
+	text-align: justify;
+	margin-top: 35%;
+	padding-left: 10%;
+	padding-right: 10%;
+
+}
+	#bagian_11BERANDA h3{
+		margin-top: -30px;
+		color: #000000;
+		text-align: center;
+}
+
+	#bagian_11BERANDA h1{
+		font-family: Century Gothic;
+		font-size: 46px;
+		text-align: center;
+		color: #000000;
+}
+
+	#bagian_11BERANDA a{
+		color: #000;
+		margin-top: -100px;
+	}
+
+#bagian_12aBERANDA{
+	background-color: none;
+	background:url('1-back - Copy-001.jpg');
+	background-attachment: fixed;
+	font-size: 20px;
+	color: #000;
+	height: 500px;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2%;
+
+}
+
+	#Pilihan_Program{
+		margin-left: 8%;
+	}
+	
+	#Pilihan_Program h1{
+		color: #fff;
+		font-size: 55px;
+		font-family: Century Gothic;
+		margin-left: -10%;
+		text-align: center;
+	}
+	
+	#bagian_12aBERANDA a{
+		margin-top: 10px;
+		font-family: calibri;
+		font-size: 20px;
+	}
+	
+	.BERANDAcontohgambar {
+		float: left;
+		position: relative;
+		width: 18%;
+		top: 0;
+	}
+	.BERANDAcontohgambar img {
+		margin-left: 0%;
+		float: left;
+		position: relative;
+		left: 100;
+		width: 100%;
+		transition: opacity 250ms ease-in-out;
+		align: center;
+	}
+	
+	.BERANDAcontohgambar .gambar1BERANDA {
+	margin-top: -10%;
+	}
+	
+	.BERANDAcontohgambar .gambar2BERANDA:hover {
+		opacity: 0;
+	}
+  
+	.BERANDAcontohgambar .gambar2BERANDA {
+		margin-top:-153.5%;
+	}
+
+#bagian_12BERANDA{
+	background-color: none;
+	background:url('GAMBAR_background 1PROGRAM_SD1.png');
+	height: 308px;
+	padding-left: 12%;
+	padding-right: 10%;
+}
+
+	#bagian_12BERANDA h1{
+		font-family: Century Gothic;
+		font-size: 40px;
+		color: #000;
+	}
+	
+	#bagian_12BERANDA table{
+		float: left;
+		padding-right: 2%;
+		padding-left: 2%;
+		text-align: left;
+		font-size: 20px;
+		font-weight: bold;
+		margin-left: 3%;
+	}
+	
+#bagian_13BERANDA{
+	background-color: none;
+	background-image:url('1200-87174146-sharper-intellect.jpg');
+	background-attachment: fixed;
+	font-size: 20px;
+	color: #000;
+	height: 300px;
+}
+	#bagian_13BERANDA h2{
+		font-family: Century Gothic;
+		font-size: 36px;
+		color: #000;
+	}
+	
+	#bagian_13BERANDA h4, h6{
+		color: #fff;
+	}
+	
+	
+	
+	
+	
+	@keyframes slider {
+	0%{
+		left: 0%;
+	}
+	25%{
+		left: 0%;
+	}
+	50%{
+		left: -100%;
+	}
+	75%{
+		left: -100%;
+	}
+	100%{
+		left: -200%;
+	}
+}
+
+#slider2{
+	overflow: hidden;
+}
+
+#slider2 figure table{
+	width: 12%;
+	float: left;
+}
+
+#slider2 figure{
+	position: relative;
+	width: 833.6%;
+	margin: 0;
+	left: 0;
+	animation: 10s slider infinite;
+}
+
+#bagian_13bBERANDA{
+	background-color: none;
+	background:url('GAMBAR_background 3bSD.png');
+	font-size: 20px;
+	color: #000;
+	height: 450px;
+	padding-left: 3.7%;
+	padding-right: 2%;
+	margin-top: 5%;
+}
+	#coba3a_BERANDA{
+		height: 700px;
+	}
+	
+	#bagian_13bBERANDA h6{
+		color: #000;
+		font-size: 13px;
+		text-align: center;
+		font-weight: light;
+	}
+	
+	#bagian_13bBERANDA a{
+		color: maroon;
+		font-size: 15px;
+		font-style: bold;
+		text-align: left;
+	}
+	
+	#bagian_13bBERANDA table{
+		float: left;
+		margin: 1%;
+		border: 3px solid;
+		border-color: #000;
+		border-radius: 5px;
+	}
+	
+	.facta2BERANDA{
+		border: 2px solid;
+		border-color: #fff;
+		border-width: 3px 0px 3px 0px;
+		margin-left: 9%;
+		margin-right: 16%;
+		margin-top: 10px;
+	}
+	
+	#bagian_13bBERANDA ul li{
+		color: #fff;
+		list-style-type: number;
+	}
+	
+	#bagian_13bBERANDA p{
+		color: #fff;
+		text-align: center;
+		margin-left: -8%;
+		font-size: 16px;
+		border: 2px solid;
+		border-color: #fff;
+		border-width: 0px 0px 3px 0px;
+		margin: 8px 16% 0px 9%;
+		padding: 0px 5% 12px 5%;
+	}
+
+#bagian_14BERANDA{
+	background-color: none;
+	background:url('GAMBAR_background 4SD.png');
+	font-size: 20px;
+	color: #000;
+	height: 310px;
+	margin: 6%;
+}
+
+	
+	
+	#bagian_14BERANDA img{
+		color: #000;
+		background-color: orange;
+		text-align: center;
+		margin: 2%;
+		border: 10px solid;
+		border-color: #000;
+		border-radius: 50px;
+		padding: 2% 7%;
+	}
+
+#bagian_15BERANDA{
+	background-color: none;
+	background:none;
+	font-size: 20px;
+	color: #000;
+	height: 280px;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: 0px;
+}
+
+	#bagian_15BERANDA a{
+		color: #fff;
+		font-variant: bold;
+		border-color: #000;
+		border-bottom-width: 3px 3px 3px 3px;
+		background-color: #000;
+		border-radius: 3px 3px 3px 3px;
+		padding: 1% 5% 1% 5%;
+		
+	}
+	
+/*----------------program sd------------------*/
+#bagian_10_PROGRAM_SD{
+	background-color: none;
+	height: 500px;
+	color: #fff;
+	text-align: right;
+}
+
+#bagian_11PROGRAM_SD{
+	font-size: 20px;
+	color: #000000;
+	height: 650px;
+	text-align: justify;
+	padding-left: 10%;
+	padding-right: 10%;
+
+}
+	#bagian_11PROGRAM_SD h2{
+		font-size: 20px;
+		text-align: center;
+		color: #000000;
+}
+
+#bagian_11PROGRAM_SD h1{
+		font-size: 30px;
+		text-align: center;
+		color: #000000;
+}
+
+#bagian_12aPROGRAM_SD{
+	background-color: none;
+	background:url('GAMBAR_background 1aSMP.png');
+	font-size: 20px;
+	color: #000;
+	height: 540px;
+	padding-top: 0.8%;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: -150px;
+}
+	.facta1SD{
+		border: 2px solid;
+		border-color: #fff;
+		border-width: 3px 0px 3px 0px;
+		margin-left: 15%;
+		margin-right: 10%;
+		margin-top: 10px;
+	}
+	
+	#bagian_12aPROGRAM_SD a{
+		margin-top: 10px;
+		font-family: calibri;
+		font-size: 72px;
+	}
+
+	#bagian_12aPROGRAM_SD p{
+		font-family: century gothic;
+		font-style: light;
+		font-size: 20px;
+		margin-top: -1px;
+		color: #fff;
+	}
+
+#bagian_12PROGRAM_SD{
+	background-color: none;
+	background:url('GAMBAR_background 1PROGRAM_SD1.png');
+	height: 448px;
+	padding-left: 12%;
+	padding-right: 10%;
+	margin-top: -220px;
+}
+
+	#bagian_12PROGRAM_SD .style1 {
+		font-size: 20px;
+		color: #fff;
+	}
+
+	#bagian_12PROGRAM_SD .style2 {
+		font-size: 14px;
+		color: #fff;
+		font-style: light;
+	}
+	
+#bagian_13PROGRAM_SD{
+	background-color: none;
+	background:url('GAMBAR_background 2SD.png');
+	font-size: 20px;
+	color: #000;
+	height: 646px;
+	padding-top: 1.2%;
+	padding-left: 16%;
+	padding-right: 10%;
+	margin-top: -140px;
+}
+
+	#bagian_13PROGRAM_SD a{
+		color: #000;
+	}
+	
+	#bagian_13PROGRAM_SD table{
+		margin-top: 5%;
+		margin-left: 8.5%;
+	}
+
+#bagian_13bPROGRAM_SD{
+	background-color: none;
+	background:url('GAMBAR_background 3bSMP.png');
+	font-size: 20px;
+	color: #000;
+	height: 602px;
+	padding-left: 7.5%;
+	padding-right: 10%;
+	margin-top: -195px;
+}
+
+	#bagian_13bPROGRAM_SD h2{
+		color: #fff;
+		margin-left: -8%;
+	}
+	
+	.facta2SD{
+		border: 2px solid;
+		border-color: #fff;
+		border-width: 3px 0px 3px 0px;
+		margin-left: 9%;
+		margin-right: 16%;
+		margin-top: 10px;
+	}
+	
+	#bagian_13bPROGRAM_SD ul li{
+		color: #fff;
+		list-style-type: number;
+	}
+	
+	#bagian_13bPROGRAM_SD p{
+		color: #fff;
+		text-align: center;
+		margin-left: -8%;
+		font-size: 16px;
+		border: 2px solid;
+		border-color: #fff;
+		border-width: 0px 0px 3px 0px;
+		margin: 8px 16% 0px 9%;
+		padding: 0px 5% 12px 5%;
+	}
+
+#bagian_14PROGRAM_SD{
+	background-color: none;
+	background:url('GAMBAR_background 4SD.png');
+	font-size: 20px;
+	color: #000;
+	height: 310px;
+	padding-top: 1%;
+	padding-left: 13%;
+	padding-right: 10%;
+	margin-top: -88px;
+}
+
+	#bagian_14PROGRAM_SD h3{
+		color: orange;
+		background-color: #000;
+		text-align: center;
+		margin-left: 8%;
+		margin-top: 0%;
+		font-size: 24px;
+		border: 2px solid;
+		border-color: #000;
+		border-width: 3px 3px 3px 3px;
+		border-radius: 15px 15px 15px 15px;
+		padding: 1%;
+	}
+	
+	#bagian_14PROGRAM_SD a{
+		color: #000;
+		background-color: orange;
+		text-align: center;
+		margin-left: 8%;
+		font-size: 25px;
+		border: 1px solid;
+		border-color: orange;
+		border-width: 3px 3px 3px 3px;
+		border-radius: 5px 5px 5px 5px;
+		padding: 0.1% 4% 0.1% 4%;
+	}
+
+#bagian_15PROGRAM_SD{
+	background-color: none;
+	background:none;
+	font-size: 20px;
+	color: #000;
+	height: 280px;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: 0px;
+}
+
+	#bagian_15PROGRAM_SD a{
+		color: #fff;
+		font-variant: bold;
+		border-color: #000;
+		border-bottom-width: 3px 3px 3px 3px;
+		background-color: #000;
+		border-radius: 3px 3px 3px 3px;
+		padding: 1% 5% 1% 5%;
+		
+	}
+	
+	
+/*----------------program SMP------------------*/
+#bagian_10_PROGRAM_SMP{
+	background-color: none;
+	height: 600px;
+	color: #fff;
+	text-align: right;
+}
+
+#bagian_11PROGRAM_SMP{
+	font-size: 20px;
+	color: #000000;
+	height: 650px;
+	text-align: justify;
+	padding-left: 10%;
+	padding-right: 10%;
+
+}
+	#bagian_11PROGRAM_SMP h2{
+		font-size: 20px;
+		text-align: center;
+		color: #000000;
+}
+
+#bagian_11PROGRAM_SMP h1{
+		font-size: 30px;
+		text-align: center;
+		color: #000000;
+}
+
+#bagian_12aPROGRAM_SMP{
+	background-color: none;
+	background:url('GAMBAR_background 1aSMP.png');
+	font-size: 20px;
+	color: #000;
+	height: 540px;
+	padding-top: 0.8%;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: -110px;
+}
+	.facta1SMP{
+		border: 2px solid;
+		border-color: #fff;
+		border-width: 3px 0px 3px 0px;
+		margin-left: 15%;
+		margin-right: 10%;
+		margin-top: 10px;
+	}
+	
+	#bagian_12aPROGRAM_SMP a{
+		margin-top: 10px;
+		font-family: calibri;
+		font-size: 72px;
+	}
+
+	#bagian_12aPROGRAM_SMP p{
+		font-family: century gothic;
+		font-style: light;
+		font-size: 20px;
+		margin-top: -1px;
+		color: #fff;
+	}
+
+#bagian_12PROGRAM_SMP{
+	background-color: none;
+	background:url('GAMBAR_background 1PROGRAM_SMP1.png');
+	height: 448px;
+	padding-left: 12%;
+	padding-right: 10%;
+	margin-top: -220px;
+}
+
+	#bagian_12PROGRAM_SMP .style1 {
+		font-size: 20px;
+		color: #fff;
+	}
+
+	#bagian_12PROGRAM_SMP .style2 {
+		font-size: 14px;
+		color: #fff;
+		font-style: light;
+	}
+	
+#bagian_13PROGRAM_SMP{
+	background-color: none;
+	background:url('GAMBAR_background 2SMP.png');
+	font-size: 20px;
+	color: #000;
+	height: 646px;
+	padding-left: 15%;
+	padding-right: 10%;
+	margin-top: -120px;
+}
+
+	#bagian_13PROGRAM_SMP a{
+		color: #000;
+	}
+	
+	#bagian_13PROGRAM_SMP table{
+		margin-top: 5%;
+		margin-left: 8.5%;
+	}
+
+#bagian_13bPROGRAM_SMP{
+	background-color: none;
+	background:url('GAMBAR_background 3bSMP.png');
+	font-size: 20px;
+	color: #000;
+	height: 602px;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: -183px;
+}
+
+	#bagian_13bPROGRAM_SMP h2{
+		color: #fff;
+		margin-left: -8%;
+	}
+	
+	.facta2SMP{
+		border: 2px solid;
+		border-color: #fff;
+		border-width: 3px 0px 3px 0px;
+		margin-left: 9%;
+		margin-right: 16%;
+		margin-top: 10px;
+	}
+	
+	#bagian_13bPROGRAM_SMP ul li{
+		color: #fff;
+		list-style-type: number;
+	}
+	
+	#bagian_13bPROGRAM_SMP p{
+		color: #fff;
+		text-align: center;
+		margin-left: -8%;
+		font-size: 16px;
+		border: 2px solid;
+		border-color: #fff;
+		border-width: 0px 0px 3px 0px;
+		margin: 8px 16% 0px 9%;
+		padding: 0px 5% 12px 5%;
+	}
+
+#bagian_14PROGRAM_SMP{
+	background-color: none;
+	background:url('GAMBAR_background 4SMP.png');
+	font-size: 20px;
+	color: #000;
+	height: 310px;
+	padding-top: 2.2%;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: -102px;
+}
+
+	#bagian_14PROGRAM_SMP h3{
+		color: orange;
+		background-color: #000;
+		text-align: center;
+		margin-left: 8%;
+		margin-top: 0%;
+		font-size: 24px;
+		border: 2px solid;
+		border-color: #000;
+		border-width: 3px 3px 3px 3px;
+		border-radius: 15px 15px 15px 15px;
+		padding: 1%;
+	}
+	
+	#bagian_14PROGRAM_SMP a{
+		color: #000;
+		background-color: orange;
+		text-align: center;
+		margin-left: 8%;
+		font-size: 25px;
+		border: 1px solid;
+		border-color: orange;
+		border-width: 3px 3px 3px 3px;
+		border-radius: 5px 5px 5px 5px;
+		padding: 0.1% 4% 0.1% 4%;
+	}
+
+#bagian_15PROGRAM_SMP{
+	background-color: none;
+	background:none;
+	font-size: 20px;
+	color: #000;
+	height: 280px;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: 0px;
+}
+
+	#bagian_15PROGRAM_SMP a{
+		color: #fff;
+		font-variant: bold;
+		border-color: #000;
+		border-bottom-width: 3px 3px 3px 3px;
+		background-color: #000;
+		border-radius: 3px 3px 3px 3px;
+		padding: 1% 5% 1% 5%;
+		
+	}
+	
+/*----------------program SMA------------------*/
+#bagian_10_PROGRAM_SMA{
+	background-color: none;
+	height: 500px;
+	color: #fff;
+	text-align: right;
+}
+
+#bagian_11PROGRAM_SMA{
+	font-size: 20px;
+	color: #000000;
+	height: 600px;
+	text-align: justify;
+	padding-left: 10%;
+	padding-right: 10%;
+
+}
+	#bagian_11PROGRAM_SMA h2{
+		font-size: 20px;
+		text-align: center;
+		color: #000000;
+}
+
+#bagian_11PROGRAM_SMA h1{
+		font-size: 30px;
+		text-align: center;
+		color: #000000;
+}
+
+#backgroungPROGRAM_SMA{
+	height: 2035px;
+}
+
+#bagian_12aPROGRAM_SMA{
+
+	background:url('GAMBAR_background 1aSMA.png');
+	background-size: 100% 76%;
+	font-size: 20px;
+	color: #000;
+	height: 550px;
+	padding-top: 0.8%;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: -100px;
+}
+	.facta1SMA{
+		border: 2px solid;
+		border-color: #fff;
+		border-width: 3px 0px 3px 0px;
+		margin-left: 15%;
+		margin-right: 10%;
+		margin-top: 10px;
+	}
+	
+	#bagian_12aPROGRAM_SMA a{
+		margin-top: 10px;
+		font-family: calibri;
+		font-size: 72px;
+	}
+
+	#bagian_12aPROGRAM_SMA p{
+		font-family: century gothic;
+		font-style: light;
+		font-size: 20px;
+		margin-top: -1px;
+		color: #fff;
+	}
+
+#bagian_12PROGRAM_SMA{
+	background-color: none;
+	background:url('GAMBAR_background 1PROGRAM_SMA1.png');
+	height: 448px;
+	padding-left: 12%;
+	padding-right: 10%;
+	margin-top: -220px;
+}
+
+	#bagian_12PROGRAM_SMA .style1 {
+		font-size: 20px;
+		color: #000;
+	}
+
+	#bagian_12PROGRAM_SMA .style2 {
+		font-size: 14px;
+		color: #000;
+		font-style: light;
+	}
+	
+#bagian_13PROGRAM_SMA {
+	background-color: none;
+	background:url('GAMBAR_background 2SMA.png');
+	font-size: 20px;
+	color: #000;
+	height: 646px;
+	padding-left: 15%;
+	padding-right: 10%;
+	margin-top: -140px;
+}
+
+	#bagian_13PROGRAM_SMA a{
+		color: #000;
+	}
+	
+	#bagian_13PROGRAM_SMA table{
+		margin-top: 2%;
+		margin-left: 8.5%;
+	}
+
+#bagian_13bPROGRAM_SMA{
+	background-color: none;
+	background:url('GAMBAR_background 3bSMA.png');
+	font-size: 20px;
+	color: #000;
+	height: 650px;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: -100px;
+}
+
+	#bagian_13bPROGRAM_SMA h2{
+		color: #000;
+		margin-left: -8%;
+	}
+	
+	.facta2SMA{
+		border: 2px solid;
+		border-color: #000;
+		border-width: 3px 0px 3px 0px;
+		margin-left: 9%;
+		margin-right: 16%;
+		margin-top: 10px;
+	}
+	
+	#bagian_13bPROGRAM_SMA ul li{
+		color: #000;
+		list-style-type: number;
+	}
+	
+	#bagian_13bPROGRAM_SMA p{
+		color: #000;
+		text-align: center;
+		margin-left: -8%;
+		font-size: 16px;
+		border: 2px solid;
+		border-color: #000;
+		border-width: 0px 0px 3px 0px;
+		margin: 8px 16% 0px 9%;
+		padding: 0px 5% 12px 5%;
+	}
+
+#bagian_14PROGRAM_SMA{
+	background-color: none;
+	background:url('GAMBAR_background 4SMA.png');
+	font-size: 20px;
+	color: #000;
+	height: 310px;
+	padding-left: 15%;
+	padding-right: 10%;
+	margin-top: -105px;
+}
+
+	#bagian_14PROGRAM_SMA h3{
+		color: orange;
+		background-color: #000;
+		text-align: center;
+		margin-left: 8%;
+		margin-top: 0%;
+		font-size: 24px;
+		border: 2px solid;
+		border-color: #000;
+		border-width: 3px 3px 3px 3px;
+		border-radius: 15px 15px 15px 15px;
+		padding: 1%;
+	}
+	
+	#bagian_14PROGRAM_SMA a{
+		color: #000;
+		background-color: orange;
+		text-align: center;
+		margin-left: 8%;
+		font-size: 25px;
+		border: 1px solid;
+		border-color: orange;
+		border-width: 3px 3px 3px 3px;
+		border-radius: 5px 5px 5px 5px;
+		padding: 0.1% 4% 0.1% 4%;
+	}
+
+#bagian_15PROGRAM_SMA{
+	background-color: none;
+	background:none;
+	font-size: 20px;
+	color: #000;
+	height: 280px;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: -0px;
+}
+
+	#bagian_15PROGRAM_SMA a{
+		color: #fff;
+		font-variant: bold;
+		border-color: #000;
+		border-bottom-width: 3px 3px 3px 3px;
+		background-color: #000;
+		border-radius: 3px 3px 3px 3px;
+		padding: 1% 5% 1% 5%;
+		
+	}
+	
+/*----------------program umum------------------*/
+#bagian_10_PROGRAM_UMUMA{
+	background-color: none;
+	height: 500px;
+
+}
+
+#bagian_11PROGRAM_UMUM{
+	font-size: 20px;
+	color: #000000;
+	height: 650px;
+	text-align: justify;
+	padding-left: 10%;
+	padding-right: 10%;
+
+}
+	#bagian_11PROGRAM_UMUM h2{
+		font-size: 20px;
+		text-align: center;
+		color: #000000;
+}
+
+#bagian_11PROGRAM_UMUM h1{
+		font-size: 30px;
+		text-align: center;
+		color: #000000;
+}
+
+#bagian_12aPROGRAM_UMUM{
+	background-color: none;
+	background:url('GAMBAR_background 1aSMP.png');
+	font-size: 20px;
+	color: #000;
+	height: 540px;
+	padding-top: 0.8%;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: -150px;
+}
+	.facta1UMUM{
+		border: 2px solid;
+		border-color: #fff;
+		border-width: 3px 0px 3px 0px;
+		margin-left: 15%;
+		margin-right: 10%;
+		margin-top: 10px;
+	}
+	
+	#bagian_12aPROGRAM_UMUM a{
+		margin-top: 10px;
+		font-family: calibri;
+		font-size: 72px;
+	}
+
+	#bagian_12aPROGRAM_UMUM p{
+		font-family: century gothic;
+		font-style: light;
+		font-size: 20px;
+		margin-top: -1px;
+		color: #fff;
+	}
+
+#bagian_12PROGRAM_UMUM{
+	background-color: none;
+	background:url('GAMBAR_background 1PROGRAM_SD1.png');
+	height: 448px;
+	padding-left: 12%;
+	padding-right: 10%;
+	margin-top: -220px;
+}
+
+	#bagian_12PROGRAM_UMUM .style1 {
+		font-size: 20px;
+		color: #fff;
+	}
+
+	#bagian_12PROGRAM_UMUM .style2 {
+		font-size: 14px;
+		color: #fff;
+		font-style: light;
+	}
+	
+#bagian_13PROGRAM_UMUM{
+	background-color: none;
+	background:url('GAMBAR_background 2SD.png');
+	font-size: 20px;
+	color: #000;
+	height: 646px;
+	padding-top: 1.2%;
+	padding-left: 16%;
+	padding-right: 10%;
+	margin-top: -140px;
+}
+
+	#bagian_13PROGRAM_UMUM a{
+		color: #000;
+	}
+	
+	#bagian_13PROGRAM_UMUM table{
+		margin-top: 6%;
+		margin-left: 9%;
+	}
+
+#bagian_13bPROGRAM_UMUM{
+	background-color: none;
+	background:url('GAMBAR_background 3bSMP.png');
+	font-size: 20px;
+	color: #000;
+	height: 602px;
+	padding-left: 7.5%;
+	padding-right: 10%;
+	margin-top: -195px;
+}
+
+	#bagian_13bPROGRAM_UMUM h2{
+		color: #000;
+		margin-left: -8%;
+	}
+	
+	.facta2UMUM{
+		border: 2px solid;
+		border-color: #000;
+		border-width: 3px 0px 3px 0px;
+		margin-left: 9%;
+		margin-right: 16%;
+		margin-top: 10px;
+	}
+	
+	#bagian_13bPROGRAM_UMUM ul li{
+		color: #000;
+		list-style-type: number;
+	}
+	
+	#bagian_13bPROGRAM_UMUM p{
+		color: #000;
+		text-align: center;
+		margin-left: -8%;
+		font-size: 16px;
+		border: 2px solid;
+		border-color: #000;
+		border-width: 0px 0px 3px 0px;
+		margin: 8px 16% 0px 9%;
+		padding: 0px 5% 12px 5%;
+	}
+
+#bagian_14PROGRAM_UMUM{
+	background-color: none;
+	background:url('GAMBAR_background 4SD.png');
+	font-size: 20px;
+	color: #000;
+	height: 310px;
+	padding-top: 1%;
+	padding-left: 13%;
+	padding-right: 10%;
+	margin-top: -88px;
+}
+
+	#bagian_14PROGRAM_UMUM h3{
+		color: orange;
+		background-color: #000;
+		text-align: center;
+		margin-left: 8%;
+		margin-top: 0%;
+		font-size: 24px;
+		border: 2px solid;
+		border-color: #000;
+		border-width: 3px 3px 3px 3px;
+		border-radius: 15px 15px 15px 15px;
+		padding: 1%;
+	}
+	
+	#bagian_14PROGRAM_UMUM a{
+		color: #000;
+		background-color: orange;
+		text-align: center;
+		margin-left: 8%;
+		font-size: 25px;
+		border: 1px solid;
+		border-color: orange;
+		border-width: 3px 3px 3px 3px;
+		border-radius: 5px 5px 5px 5px;
+		padding: 0.1% 4% 0.1% 4%;
+	}
+
+#bagian_15PROGRAM_UMUM{
+	background-color: none;
+	background:none;
+	font-size: 20px;
+	color: #000;
+	height: 280px;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: 0px;
+}
+
+	#bagian_15PROGRAM_UMUM a{
+		color: #fff;
+		font-variant: bold;
+		border-color: #000;
+		border-bottom-width: 3px 3px 3px 3px;
+		background-color: #000;
+		border-radius: 3px 3px 3px 3px;
+		padding: 1% 5% 1% 5%;
+		
+	}
+	
+/*----------------program SBMPTN------------------*/
+#bagian_10_PROGRAM_SBMPTN{
+	background-color: none;
+	height: 500px;
+	color: #fff;
+	text-align: right;
+}
+
+#bagian_11PROGRAM_SBMPTN{
+	font-size: 20px;
+	color: #000000;
+	height: 600px;
+	text-align: justify;
+	padding-left: 10%;
+	padding-right: 10%;
+
+}
+	#bagian_11PROGRAM_SBMPTN h2{
+		font-size: 20px;
+		text-align: center;
+		color: #000000;
+}
+
+#bagian_11PROGRAM_SBMPTN h1{
+		font-size: 30px;
+		text-align: center;
+		color: #000000;
+}
+
+#backgroungPROGRAM_SBMPTN{
+	height: 2080px;
+}
+
+#bagian_12aPROGRAM_SBMPTN{
+
+	background:url('GAMBAR_background 1aSMA.png');
+	background-size: 100% 76%;
+	font-size: 20px;
+	color: #000;
+	height: 550px;
+	padding-top: 0.8%;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: -100px;
+}
+	.facta1SBMPTN{
+		border: 2px solid;
+		border-color: #fff;
+		border-width: 3px 0px 3px 0px;
+		margin-left: 15%;
+		margin-right: 10%;
+		margin-top: 10px;
+	}
+	
+	#bagian_12aPROGRAM_SBMPTN a{
+		margin-top: 10px;
+		font-family: calibri;
+		font-size: 72px;
+	}
+
+	#bagian_12aPROGRAM_SBMPTN p{
+		font-family: century gothic;
+		font-style: light;
+		font-size: 20px;
+		margin-top: -1px;
+		color: #fff;
+	}
+
+#bagian_12PROGRAM_SBMPTN{
+	background-color: none;
+	background:url('GAMBAR_background 1PROGRAM_SMA1.png');
+	height: 448px;
+	padding-left: 12%;
+	padding-right: 10%;
+	margin-top: -220px;
+}
+
+	#bagian_12PROGRAM_SBMPTN .style1 {
+		font-size: 20px;
+		color: #000;
+	}
+
+	#bagian_12PROGRAM_SBMPTN .style2 {
+		font-size: 14px;
+		color: #000;
+		font-style: light;
+	}
+	
+#bagian_13PROGRAM_SBMPTN {
+	background-color: none;
+	background:url('GAMBAR_background 2SMA.png');
+	font-size: 20px;
+	color: #000;
+	height: 646px;
+	padding-left: 15%;
+	padding-right: 10%;
+	margin-top: -140px;
+}
+
+	#bagian_13PROGRAM_SBMPTN a{
+		color: #000;
+	}
+	
+	#bagian_13PROGRAM_SBMPTN table{
+		margin-top: 2%;
+		margin-left: 8.5%;
+		font-weight: bold;
+	}
+
+#bagian_13bPROGRAM_SBMPTN{
+	background-color: none;
+	background:url('GAMBAR_background 3bSMA.png');
+	font-size: 20px;
+	color: #fff;
+	height: 650px;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: -50px;
+}
+
+	#bagian_13bPROGRAM_SBMPTN h2{
+		color: #fff;
+		margin-left: -8%;
+	}
+	
+	.facta2SBMPTN{
+		border: 2px solid;
+		border-color: #fff;
+		border-width: 3px 0px 3px 0px;
+		margin-left: 9%;
+		margin-right: 16%;
+		margin-top: 10px;
+	}
+	
+	#bagian_13bPROGRAM_SBMPTN ul li{
+		color: #fff;
+		list-style-type: number;
+	}
+	
+	#bagian_13bPROGRAM_SBMPTN p{
+		color: #fff;
+		text-align: center;
+		margin-left: -8%;
+		font-size: 16px;
+		border: 2px solid;
+		border-color: #fff;
+		border-width: 0px 0px 3px 0px;
+		margin: 8px 16% 0px 9%;
+		padding: 0px 5% 12px 5%;
+	}
+
+#bagian_14PROGRAM_SBMPTN{
+	background-color: none;
+	background:url('GAMBAR_background 4SMA.png');
+	font-size: 20px;
+	color: #000;
+	height: 310px;
+	padding-left: 15%;
+	padding-right: 10%;
+	margin-top: -105px;
+}
+
+	#bagian_14PROGRAM_SBMPTN h3{
+		color: orange;
+		background-color: #000;
+		text-align: center;
+		margin-left: 8%;
+		margin-top: 0%;
+		font-size: 24px;
+		border: 2px solid;
+		border-color: #000;
+		border-width: 3px 3px 3px 3px;
+		border-radius: 15px 15px 15px 15px;
+		padding: 1%;
+	}
+	
+	#bagian_14PROGRAM_SBMPTN a{
+		color: #000;
+		background-color: orange;
+		text-align: center;
+		margin-left: 8%;
+		font-size: 25px;
+		border: 1px solid;
+		border-color: orange;
+		border-width: 3px 3px 3px 3px;
+		border-radius: 5px 5px 5px 5px;
+		padding: 0.1% 4% 0.1% 4%;
+	}
+
+#bagian_15PROGRAM_SBMPTN{
+	background-color: none;
+	background:none;
+	font-size: 20px;
+	color: #000;
+	height: 280px;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: -0px;
+}
+
+	#bagian_15PROGRAM_SBMPTN a{
+		color: #fff;
+		font-variant: bold;
+		border-color: #000;
+		border-bottom-width: 3px 3px 3px 3px;
+		background-color: #000;
+		border-radius: 3px 3px 3px 3px;
+		padding: 1% 5% 1% 5%;
+		
+	}
+	
+/*-----------------------------B e r i t a------------------*/
+#bagian_11berita{
+	margin-top: 5%;
+	margin-left: 11%;
+	margin-right: 11%;
+	float: center;
+	text-align: left;
+}
+
+#bagian_11berita h3{
+	color: maroon;
+	font-family: verdana;
+	font-size: 24px;
+}
+
+#bagian_11berita a{
+	color: blue;
+}
+
+	.facta2berita{
+		border: 2px solid;
+		border-color: #000;
+		border-width: 3px 0px 3px 0px;
+		margin-bottom: 2%;
+	}
+	
+	/*-----B e r i t a-rincian 1------------------*/
+	#bagian_11berita_rincian_1{
+		float: center;
+		margin-left: 12%;
+		margin-right: 12%;
+		margin-top: 3%;
+		background-color: #fff;
+	}
+	
+	#bagian_11berita_rincian_1 h1{
+		font-family: Verdana;
+		color: maroon;
+		font-size: 24px;
+	}
+	
+	#bagian_11berita_rincian_1 p{
+		font-style: italic;
+	}
+	
+	#bagian_11berita_rincian_1 a{
+		color: #000;
+	}
+	
+		.facta1rincian{
+			text-align: left;
+			margin-top: 2.5%;
+			margin-left: 1%;
+			margin-right: 1%;
+			margin-bottom: 2%;
+			text-align: justify;
+		}
+	
+	#bagian_12berita_rincian_2{
+		float: center;
+		margin-left: 12%;
+		margin-right: 12%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+
+	#bagian_12berita_rincian_2 a{
+		color: blue;
+		font-style: bold;
+		font-size: 20px;
+	}
+/*--------------------t e s t i m o n i------------------*/
+
+#bagian_10_testimonial{
+	height: 200px;
+}
+	#bagian_10_testimonial h1{
+	color: #fff;
+	font-size: 66px;
+	font-family: century gothic;
+	float: left;
+	margin-left: 11%;
+}
+
+#backgroung_testimonial_2{
+	height: 1759px;
+	margin: 0;
+	padding:0;
+}
+
+#bagian_11testimonial{
+	padding-top: 5%;
+	padding-left: 10%;
+	text-align: left;
+}
+
+#bagian_11testimonial p{
+	text-align: left;
+}
+
+#bagian_12testimonial{
+	padding-top: 9%;
+	padding-right: 7%;
+	margin-bottom: 14%;
+	text-align: right;
+}
+
+#bagian_12testimonial p, pre{
+	text-align: right;
+}
+
+#bagian_13testimonial{
+	padding-top: 9%;
+	padding-left: 10%;
+	text-align: left;
+}
+
+#bagian_13testimonial p{
+	text-align: left;
+}
+
+#bagian_14testimonial{
+	padding-top: 9%;
+	padding-right: 7%;
+	margin-bottom: 14%;
+	text-align: right;
+}
+
+#bagian_14testimonial p, pre{
+	text-align: right;
+}
+
+
+/*--------------------HUBUNGI KAMI------------------*/
+#bagian_10_HUBUNGI_KAMI{
+	height: 200px;
+}
+	#bagian_10_HUBUNGI_KAMI h1{
+	color: #fff;
+	font-size: 66px;
+	font-family: century gothic;
+	float: left;
+	margin-left: 11%;
+}
+
+#bagian_11HUBUNGI_KAMI{
+	padding-top: 5%;
+}
+
+#gabungan_HUBUNGI_KAMI{
+	border: 5px solid;
+	border-color: #000;
+	border-radius: 10% 10%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 5%;
+}
+
+	#bagian_11HUBUNGI_KAMI h1{
+	color: #fff;
+	font-family: century gothic;
+	float: left;
+	margin-left: 11%;
+}
+
+	#bagian_12HUBUNGI_KAMI h2{
+		color: navy;
+		font-size: 26px;
+		font-family: century gothic;
+		float: center;
+	}
+	
+	#bagian_13HUBUNGI_KAMI{
+		padding-bottom: 2%;
+	}
+	
+	#bagian_13HUBUNGI_KAMI a{
+		color: #000;
+	}
+	
+	
+/*----div id=bagian 12 dan div id=coba3 
+sama seperi section myprival dan trial--*/
+
+
+/*----FOOTERS!!!!!!--*/
+#footer{
+	text-align: bottom;
+}
+
+footer{
+	clear: both;
+	background: #322a2a;
+	margin-top: 10px;
+	text-align: center;
+	padding: 10px;
+	color: #fff;
+	margin-top: 0px;
+}
+/*-------FOOTER BAGIAN PROFIL---------------*/
+#footer_Profil{
+	height: 330px;
+	background-color: #4e4e62;
+	margin-left: -9px;
+	margin-right:-9px;
+	margin-top: -10px;
+
+}
+
+nav li{
+	float: left;
+	margin-left: 6.3%;
+	text-align: center;
+	margin-top: 30px;
+	width: 200px;
+}
+
+nav li ul{
+	float: center;
+	text-align: left;
+	margin-top: -19px;
+}
+
+nav p{
+	text-align: left;
+	font-size: 13.5px;
+	padding-top: 5px;
+}
+
+nav li ul{
+	text-align: left;
+	font-size: 13.5px;
+	padding-top: 17px;
+}
